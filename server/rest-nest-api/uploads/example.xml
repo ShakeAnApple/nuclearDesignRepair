@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/ovsianp1/ontologies/2021/10/untitled-ontology-9#"
+     xml:base="http://www.semanticweb.org/ovsianp1/ontologies/2021/10/untitled-ontology-9"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-9="http://www.semanticweb.org/ovsianp1/ontologies/2021/10/untitled-ontology-9#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/ovsianp1/ontologies/2021/10/untitled-ontology-9"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ovsianp1/ontologies/2021/10/untitled-ontology-9#prop1 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ovsianp1/ontologies/2021/10/untitled-ontology-9#prop1"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ovsianp1/ontologies/2021/10/untitled-ontology-9#prop2 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ovsianp1/ontologies/2021/10/untitled-ontology-9#prop2">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ovsianp1/ontologies/2021/10/untitled-ontology-9#prop1"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ovsianp1/ontologies/2021/10/untitled-ontology-9#prop3 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ovsianp1/ontologies/2021/10/untitled-ontology-9#prop3">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ovsianp1/ontologies/2021/10/untitled-ontology-9#prop1"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ovsianp1/ontologies/2021/10/untitled-ontology-9#prop4 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ovsianp1/ontologies/2021/10/untitled-ontology-9#prop4"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ovsianp1/ontologies/2021/10/untitled-ontology-9#class1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ovsianp1/ontologies/2021/10/untitled-ontology-9#class1"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ovsianp1/ontologies/2021/10/untitled-ontology-9#class2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ovsianp1/ontologies/2021/10/untitled-ontology-9#class2"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ovsianp1/ontologies/2021/10/untitled-ontology-9#sibling2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ovsianp1/ontologies/2021/10/untitled-ontology-9#sibling2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ovsianp1/ontologies/2021/10/untitled-ontology-9#class2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ovsianp1/ontologies/2021/10/untitled-ontology-9#subclass1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ovsianp1/ontologies/2021/10/untitled-ontology-9#subclass1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ovsianp1/ontologies/2021/10/untitled-ontology-9#class2"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ovsianp1/ontologies/2021/10/untitled-ontology-9#ind1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ovsianp1/ontologies/2021/10/untitled-ontology-9#ind1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ovsianp1/ontologies/2021/10/untitled-ontology-9#class1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ovsianp1/ontologies/2021/10/untitled-ontology-9#ind2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ovsianp1/ontologies/2021/10/untitled-ontology-9#ind2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ovsianp1/ontologies/2021/10/untitled-ontology-9#class2"/>
+        <prop1 rdf:resource="http://www.semanticweb.org/ovsianp1/ontologies/2021/10/untitled-ontology-9#ind1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ovsianp1/ontologies/2021/10/untitled-ontology-9#ind3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ovsianp1/ontologies/2021/10/untitled-ontology-9#ind3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ovsianp1/ontologies/2021/10/untitled-ontology-9#subclass1"/>
+        <prop2 rdf:resource="http://www.semanticweb.org/ovsianp1/ontologies/2021/10/untitled-ontology-9#ind2"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

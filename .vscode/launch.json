@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "rest-nest-api",
+            "runtimeArgs": [
+                "--nolazy",
+                "-r",
+                "ts-node/register"
+            ],
+            "args": [
+                "${workspaceFolder}\\server\\rest-nest-api\\src\\main.ts",
+            ],
+            "cwd": "${workspaceFolder}\\server\\rest-nest-api\\",
+            "autoAttachChildProcesses": true,
+            "sourceMaps": true,
+            "protocol": "inspector"
+        }
+    ]
+}
